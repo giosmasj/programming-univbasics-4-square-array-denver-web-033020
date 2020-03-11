@@ -1,5 +1,6 @@
 def square_array(array)
-  new_array = []
-  array.each{|a| new_array.push(a**2)}
-  return new_array
+  new_numbers = []
+  array.each do |num|
+  new_numbers << (num ** 2)
+  return new_numbers
 end
